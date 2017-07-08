@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CharterRetailFramework">
+
+<parameter name="browser" value="firefox"/>
+<test name="HSD Order">
+<classes>
+<class name="com.org.charter.testcases.TestCase_SubmitHSDOnlyOrder"/>
+</classes>
+</test>  
+
+<!--<test name="Video Order">
+<classes>
+<class name="com.org.charter.testcases.TestCase_SubmitVideoOnlyOrder"/>
+</classes>
+</test>
+
+<test name="All Order">
+<classes>
+<class name="com.org.charter.testcases.TestCase_SubmitAllLOB"/>
+</classes>
+</test>-->
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CharterRetailFramework]">
+  <parameter name="browser" value="firefox"/>
+  <test name="HSD Order(failed)">
+    <classes>
+      <class name="com.org.charter.testcases.TestCase_SubmitHSDOnlyOrder">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="TestRunMode"/>
+          <include name="TestSubmitHSDOrder"/>
+        </methods>
+      </class> <!-- com.org.charter.testcases.TestCase_SubmitHSDOnlyOrder -->
+    </classes>
+  </test> <!-- HSD Order(failed) -->
+</suite> <!-- Failed suite [CharterRetailFramework] -->
